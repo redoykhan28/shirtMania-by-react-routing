@@ -1,0 +1,42 @@
+.cart {
+
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    padding: 40px;
+    height: 100%;
+    width: 80%;
+    margin-right: 70px;
+
+}
+
+.gray {
+
+    background-color: #D3D2D8;
+}
+
+
+.coral {
+
+    background-color: lightcoral;
+
+}
+
+
+
+.ol {
+    text-align: start;
+}
+
+.btn2 {
+
+    background-color: transparent;
+    color: red;
+    border: none;
+    margin-left: 10px;
+}
+
+.btn2:hover {
+
+    color: green;
+    cursor: pointer;
+}
