@@ -1,0 +1,15 @@
+.context,
+.context h3 {
+
+    border: 2px solid coral;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+
+.flex {
+
+    display: flex;
+    justify-content: space-evenly;
+}

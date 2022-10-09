@@ -5,6 +5,7 @@ import Main from './Layout/Main';
 import Home from './Components/Home/Home';
 import Order from './Components/Order/Order';
 import About from './Components/About/About';
+import Grandpa from './Components/Grandpa/Grandpa'
 
 function App() {
   const router = createBrowserRouter([
@@ -16,6 +17,10 @@ function App() {
           path: '/',
           element: <Home></Home>,
           loader: () => fetch('tShirt.json')
+        },
+        {
+          path: '/grandpa',
+          element: <Grandpa></Grandpa>
         },
         {
           path: '/orders',
